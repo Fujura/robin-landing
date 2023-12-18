@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  margin: 10vh 10vw;
+}
+
+.text__Container {
+  flex-direction: column;
+}
+
+.title {
+  color: var(--White, #fff);
+  font-family: Sen;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text {
+  color: var(--Light-Grey, #8491a0);
+  /* Pargraph_18px */
+  font-family: Sen;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+@media screen and (max-width: 600px) {
+    .title{
+        font-size: 28px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    .container{
+        flex-direction: column;
+    }
+}

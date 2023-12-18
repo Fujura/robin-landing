@@ -1,0 +1,10 @@
+.box {
+  justify-content: center;
+  display: flex;
+  padding: 60px;
+   
+  border: 1px solid var(--Level-1, hsl(240, 19%, 12%));
+  background: var(--Black, #000);
+  cursor: grab;
+  height: 150px;
+}

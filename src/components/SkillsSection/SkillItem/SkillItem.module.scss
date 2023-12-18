@@ -1,0 +1,29 @@
+.item__Container {
+  width: 25vw;
+  margin: 20px;
+}
+
+.title {
+  color: var(--White, #fff);
+  /* Heading_24px */
+  font-family: Sen;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  margin: 15px 0;
+}
+
+
+@media screen and (max-width: 800px) {
+    .item__Container{
+        margin: 30px 75px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .item__Container{
+        width: 80vw;
+        margin: 30px 20px;
+    }
+  }

@@ -1,0 +1,29 @@
+.form__Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  margin-top: 20px;
+  display: flex;
+  //   width: ;
+  padding: 24px 32px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: var(--Purple, #5221e6);
+
+  color: var(--White, #fff);
+  /* Button_18px */
+  font-family: Sen;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+  text-transform: uppercase;
+}
+
+.textarea{
+    min-height: 200px;
+    max-height: 350px;
+}
